@@ -1,0 +1,331 @@
+Título: Consulta Hierárquica
+
+Atores: Professor, Gestor Público, Aluno, Político, Servidor Público, Cidadão.
+
+Resumo: Eu, como (Atores), eu desejo montar uma hierarquia com o(s) íte(m)ns Órgão Superior e/ou Orgão Subordinado e/ou Unidade Gestora e/ou Ação e/ou Programa e/ou Favorecido para avaliar os gastos dessa hierarquia para determinado(s) Órgão Superior e/ou Orgão Subordinado e/ou Unidade Gestora e/ou Ação e/ou Programa e/ou Favorecido e ver os gastos da hierarquia.
+
+Pré-Condições:
+1. Existe uma forma de escolher e montar a hierarquia com o(s) Órgão(s) Superiores e/ou Órgão(s) Subordinado(s) e/ou Unidade(s) Gestora(s) e/ou Ação(ões) e/ou Programa(s) e/ou Favorecido(s)
+
+
+Trigger: O caso de uso se inicia quando o usuário move um dos itens descritos na caixa do lado esquerdo para o lado direito e efetua a consulta.
+
+Flúxo Básico 01:
+
+1. O usuário aperta no Botão da tela principal - Consulta Hierárquica
+2. O usuário move os itens que deseja para a consulta do lado esquerdo para  lado direito da caixa e vai para o próximo passo.
+3. O usuário filtra ou não por itens específicos dentre os que ele já adicionou e finaliza a consulta.
+4. O usuário tem a opção de espandir, detalhar, filtrar e analisar o resultado da consulta hierárquica montada.
+5. O caso de uso é 	finalizado com sucesso.
+
+Fluxo Alternativo 01:
+
+O fluxo se inicia à partir de outra tela sem ser a homepage. 
+
+1 O usuário segue o fluxo descrito no passo 2 do Fluxo básico.
+
+Fluxo de Exceção 01:
+
+O fluxo se inicia no passo 2 do Fluxo Básico 01.
+
+1. O usuário não movendo itens para a consulta e clicando em consultar. "Mova o(s) itens(m) da caixa de seleção do lado direito para o lado esquerdo antes de consultar"
+
+-------------------------------------------------------------------------------------------------------
+Título: Consulta Simples
+
+Atores: Professor, Gestor Público, Aluno, Político, Servidor Público, Cidadão.
+
+Resumo: Eu, como (Atores), eu desejo comparar os gastos dos órgãos, para avaliar os gastos ao longo dos meses no ano.
+
+Pré-Condições:
+1. Existe uma forma de escolher e montar uma consulta que retorna uma série temporal com os gastos ao longo do ano.
+
+Trigger: O usuário digitou pelo nome de algum Órgão no campo de busca.
+
+Flúxo Básico 01:
+
+1. O usuário aperta no Botão da tela principal - Consulta Simples
+2. O usuário digita por nomes de Órgãos e efetua a consulta.
+3. O caso de uso é finalizado com sucesso.
+
+Fluxo Alternativo 01:
+
+O fluxo se inicia à partir de outra tela sem ser a homepage. 
+
+1 O usuário segue o fluxo descrito no passo 2 do Fluxo básico.
+
+Fluxo de Exceção 01:
+
+O fluxo se inicia no passo 2 do Fluxo Básico 01.
+
+1. O usuário aperta o botão consultar sem ter escrito o nome de algum Órgão e aperta o botão "consultar"
+
+-------------------------------------------------------------------------------------------------------
+Título: Órgãos Superiores
+
+Atores: Professor, Gestor Público, Aluno, Político, Servidor Público, Cidadão.
+
+Resumo: Eu, como (Atores), eu desejo ver os gastos de um determinado  Órgão Superior, para avaliar e comparar os gastos ao longo dos meses no ano.
+
+Pré-Condições:
+1. Existe uma forma de escolher um Órgão específico para ver o gasto ao longo do ano.
+
+Trigger: O usuário apertou o Botão Órgão Superior na homepage.
+
+Flúxo Básico 01:
+
+1. O usuário aperta no Botão da tela principal - Órgão Superior
+2. O usuário digita pelo nome do Órgão que deseja saber o gasto e clica na caixa com o nome do Órgão Superior.
+3. O caso de uso é finalizado com sucesso.
+
+Fluxo Alternativo 01:
+
+O fluxo se inicia à partir de outra tela sem ser a homepage. 
+
+1 O usuário segue o fluxo descrito no passo 2 do Fluxo básico.
+
+Fluxo de Exceção 01:
+
+O fluxo se inicia no passo 2 do Fluxo Básico 01.
+
+1. O usuário filtra pelo nome de algum Órgão inexiste.
+
+-------------------------------------------------------------------------------------------------------
+Título: Órgãos Subordinados
+
+Atores: Professor, Gestor Público, Aluno, Político, Servidor Público, Cidadão.
+
+Resumo: Eu, como (Atores), eu desejo ver os gastos de um determinado  Órgão Subordinado, para avaliar e comparar os gastos ao longo dos meses no ano.
+
+Pré-Condições:
+1. Existe uma forma de escolher um Órgão específico para ver o gasto ao longo do ano.
+
+Trigger: O usuário apertou o Botão Órgão Subordinado na homepage.
+
+Flúxo Básico 01:
+
+1. O usuário aperta no Botão da tela principal - Órgão Superior
+2. O usuário digita pelo nome do Órgão que deseja saber o gasto e clica na caixa com o nome do Órgão Subordinado.
+3. O caso de uso é finalizado com sucesso.
+
+Fluxo Alternativo 01:
+
+O fluxo se inicia à partir de outra tela sem ser a homepage. 
+
+1 O usuário segue o fluxo descrito no passo 2 do Fluxo básico.
+
+Fluxo de Exceção 01:
+
+O fluxo se inicia no passo 2 do Fluxo Básico 01.
+
+1. O usuário filtra pelo nome de algum Órgão inexiste.
+
+-------------------------------------------------------------------------------------------------------
+Título: Unidades Gestoras
+
+Atores: Professor, Gestor Público, Aluno, Político, Servidor Público, Cidadão.
+
+Resumo: Eu, como (Atores), eu desejo ver os gastos de um determinado  Unidade Gestora, para avaliar e comparar os gastos ao longo dos meses no ano.
+
+Pré-Condições:
+1. Existe uma forma de escolher um Unidade Gestora para ver o gasto ao longo do ano.
+
+Trigger: O usuário apertou o Botão Unidade Gestora na homepage.
+
+Flúxo Básico 01:
+
+1. O usuário aperta no Botão da tela principal - Unidade Gestora
+2. O usuário digita pelo nome do Órgão que deseja saber o gasto e clica na caixa com o nome do Unidade Gestora.
+3. O caso de uso é finalizado com sucesso.
+
+Fluxo Alternativo 01:
+
+O fluxo se inicia à partir de outra tela sem ser a homepage. 
+
+1 O usuário segue o fluxo descrito no passo 2 do Fluxo básico.
+
+Fluxo de Exceção 01:
+
+O fluxo se inicia no passo 2 do Fluxo Básico 01.
+
+1. O usuário filtra pelo nome de alguma Unidade Gestora inexiste.
+
+-------------------------------------------------------------------------------------------------------
+Título: Ações
+
+Atores: Professor, Gestor Público, Aluno, Político, Servidor Público, Cidadão.
+
+Resumo: Eu, como (Atores), eu desejo ver os gastos de uma determinada  Ação, para avaliar e comparar os gastos da Ação ao longo dos meses no ano.
+
+Pré-Condições:
+1. Existe uma forma de escolher uma Ação para ver o gasto ao longo do ano.
+
+Trigger: 
+O usuário filtrou pelo nome da Página Unidades Gestoras e clicou na Ação escolhida.
+O usuário clicou no botão Ação na homepage.
+
+Flúxo Básico 01:
+
+1. O usuário filtrou pelo nome da Página Unidades Gestoras e clica na Ação escolhida.
+2. O usuário clicou no botão Ação na homepage.
+3. O caso de uso é finalizado com sucesso.
+
+Fluxo Alternativo 01:
+
+O fluxo se inicia à partir de outra tela sem ser a Unidades Gestoras ou Ação da homepage. 
+
+1 O usuário segue o fluxo descrito no passo 1 do Fluxo básico.
+
+Fluxo de Exceção 01:
+
+O fluxo se inicia no passo 1 do Fluxo Básico 01.
+
+1. O usuário filtra pelo nome de alguma Ação inexiste.
+
+-------------------------------------------------------------------------------------------------------
+Título: Gastos de Todos os Órgãos Superiores
+
+Atores: Professor, Gestor Público, Aluno, Político, Servidor Público, Cidadão.
+
+Resumo: Eu, como (Atores), eu desejo visualizar os gastos de todos os Órgãos Superiores, para avaliar os gastos ao longo dos meses no ano.
+
+Pré-Condições:
+1. Existe uma forma de escolher os gastos de todos os Órgãos Superiores para ver o gasto ao longo do ano.
+
+Trigger: O usuário apertou o Botão Órgão Superior na homepage.
+
+Flúxo Básico 01:
+
+1. O usuário aperta no Botão da tela principal - Órgão Superior
+2. O caso de uso é finalizado com sucesso.
+
+Fluxo Alternativo 01:
+
+O fluxo se inicia à partir de outra tela sem ser a homepage. 
+
+1 O usuário segue o fluxo descrito no passo 1 do Fluxo básico.
+
+Fluxo de Exceção 01:
+
+O fluxo se inicia no passo 1 do Fluxo Básico 01.
+
+-------------------------------------------------------------------------------------------------------
+Título: Gastos de Todos os Órgãos Subordinados
+
+Atores: Professor, Gestor Público, Aluno, Político, Servidor Público, Cidadão.
+
+Resumo: Eu, como (Atores), eu desejo visualizar os gastos de todos os Órgãos Subordinados, para avaliar os gastos ao longo dos meses no ano.
+
+Pré-Condições:
+1. Existe uma forma de escolher os gastos de todos os Órgãos Subordinados para ver o gasto ao longo do ano.
+
+Trigger: O usuário apertou o Botão Órgão Subordinados na homepage.
+
+Flúxo Básico 01:
+
+1. O usuário aperta no Botão da tela principal - Órgãos Subordinados
+2. O caso de uso é finalizado com sucesso.
+
+Fluxo Alternativo 01:
+
+O fluxo se inicia à partir de outra tela sem ser a homepage. 
+
+1 O usuário segue o fluxo descrito no passo 1 do Fluxo básico.
+
+Fluxo de Exceção 01:
+
+O fluxo se inicia no passo 1 do Fluxo Básico 01.
+
+-------------------------------------------------------------------------------------------------------
+Título: Gastos de Todos as Unidades Gestoras
+
+Atores: Professor, Gestor Público, Aluno, Político, Servidor Público, Cidadão.
+
+Resumo: Eu, como (Atores), eu desejo visualizar os gastos de todos as Unidades Gestoras, para avaliar os gastos ao longo dos meses no ano.
+
+Pré-Condições:
+1. Existe uma forma de escolher os gastos de todos os Unidades Gestoras para ver o gasto ao longo do ano.
+
+Trigger: O usuário apertou o Botão Unidades Gestoras na homepage.
+
+Flúxo Básico 01:
+
+1. O usuário aperta no Botão da tela principal - Unidades Gestoras
+2. O caso de uso é finalizado com sucesso.
+
+Fluxo Alternativo 01:
+
+O fluxo se inicia à partir de outra tela sem ser a homepage. 
+
+1 O usuário segue o fluxo descrito no passo 1 do Fluxo básico.
+
+Fluxo de Exceção 01:
+
+O fluxo se inicia no passo 1 do Fluxo Básico 01.
+-------------------------------------------------------------------------------------------------------
+Título: Programas
+
+Atores: Professor, Gestor Público, Aluno, Político, Servidor Público, Cidadão.
+
+Resumo: Eu, como (Atores), eu desejo ver os gastos de um determinado Programa, para avaliar e comparar os gastos do Programa ao longo dos meses no ano.
+
+Pré-Condições:
+1. Existe uma forma de escolher um Programa para ver o gasto ao longo do ano.
+
+Trigger: 
+O usuário filtrou pelo nome do Programa na Consulta Hierárquica.
+O usuário clicou no botão Programa na homepage.
+
+Flúxo Básico 01:
+
+1. O usuário filtrou pelo nome Programa na Consulta Hierárquica.
+2. O usuário clicou no botão Programa na homepage.
+3. O caso de uso é finalizado com sucesso.
+
+Fluxo Alternativo 01:
+
+O fluxo se inicia à partir de outra tela sem Programa da homepage. 
+
+1 O usuário segue o fluxo descrito no passo 1 do Fluxo básico.
+
+Fluxo de Exceção 01:
+
+O fluxo se inicia no passo 1 do Fluxo Básico 01.
+
+1. O usuário filtra pelo nome de algum Programa inexiste.
+
+-------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+Título: Favorecidos
+
+Atores: Professor, Gestor Público, Aluno, Político, Servidor Público, Cidadão.
+
+Resumo: Eu, como (Atores), eu desejo ver os gastos de um determinado Favorecido, para avaliar e comparar os gastos do Programa ao longo dos meses no ano.
+
+Pré-Condições:
+1. Existe uma forma de escolher um Favorecido para ver o gasto ao longo do ano.
+
+Trigger: 
+O usuário filtrou pelo nome do Favorecido na Consulta Hierárquica.
+O usuário clicou no botão Favorecido na homepage.
+
+Flúxo Básico 01:
+
+1. O usuário filtrou pelo nome Favorecido na Consulta Hierárquica.
+2. O usuário clicou no botão Favorecido na homepage.
+3. O caso de uso é finalizado com sucesso.
+
+Fluxo Alternativo 01:
+
+O fluxo se inicia à partir de outra tela sem Favorecido da homepage. 
+
+1 O usuário segue o fluxo descrito no passo 1 do Fluxo básico.
+
+Fluxo de Exceção 01:
+
+O fluxo se inicia no passo 1 do Fluxo Básico 01.
+
+1. O usuário filtra pelo nome de algum Favorecido inexiste.
+
+-------------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,279 @@
+
+Histórias do Usuário
+
+Nome da História: Consulta Hierárquica
+
+Atores:  Professor, Gestor Público, Aluno, Político, Servidor Público, Cidadão.
+
+Eu, como (Atores), eu desejo montar uma hierarquia com o(s) íte(m)ns Órgão Superior e/ou Orgão Subordinado e/ou Unidade Gestora e/ou Ação e/ou Programa e/ou Favorecido para avaliar os gastos dessa hierarquia para determinado(s) Órgão Superior e/ou Orgão Subordinado e/ou Unidade Gestora e/ou Ação e/ou Programa e/ou Favorecido e ver os gastos da hierarquia.
+
+- Arrastar os ítens Órgão Superior, Orgão Subordinado, Unidade Gestora, Ação, Programa, Favorecido para Hierarquia de consulta.
+- Escolher o Órgão Superior
+- Escolher o Orgão Subordinado
+- Escolher o Unidade Gestora
+- Escolher o Ação
+- Escolher o Programa
+- Escolher o Favorecido
+- Montar a Hierarquia com os ìtens preenchidos.
+- Expandir os gastos da Hierarquia.
+
+
+
+
+Nome da História: Consulta Simples
+
+Atores:  Professor, Gestor Público, Aluno, Político, Servidor Público, Cidadão.
+
+Eu, como (Atores), eu desejo comparar os gastos dos órgãos, para avaliar os gastos ao longo dos meses no ano.
+
+- Digitar os nomes dos órgãos no campo de busca.
+-  Interagir no gráfico para comparar os gastos nos meses em um ano.
+
+
+
+
+Nome da História: Gastos de Todos os Órgãos Superiores
+
+Atores:  Professor, Gestor Público, Aluno, Político, Servidor Público, Cidadão.
+
+Eu, como (Atores), eu desejo visualizar os gastos de todos os órgãos superiores, para avaliar os gastos ao longo dos meses no ano.
+
+- Clicar no botão Órgãos Superiores.
+-  Interagir no gráfico para comparar os gastos nos meses em um ano.
+
+
+
+
+Nome da História: Gastos de Todos os Órgãos Subordinados
+
+Atores:  Professor, Gestor Público, Aluno, Político, Servidor Público, Cidadão.
+
+Eu, como (Atores), eu desejo visualizar os gastos de todos os órgãos subordinados, para avaliar os gastos ao longo dos meses no ano.
+
+- Clicar no botão Órgãos Subordinados.
+-  Interagir no gráfico para comparar os gastos nos meses em um ano.
+
+
+
+
+Nome da História: Gastos de Todos os Unidades Gestoras
+
+Atores:  Professor, Gestor Público, Aluno, Político, Servidor Público, Cidadão.
+
+Eu, como (Atores), eu desejo visualizar os gastos de todos as unidades gestoras, para avaliar os gastos ao longo dos meses no ano.
+
+- Clicar no botão Unidades Gestoras.
+-  Interagir no gráfico para comparar os gastos nos meses em um ano.
+
+
+
+
+
+Nome da História: Órgãos Superiores
+
+Atores:  Professor, Gestor Público, Aluno, Político, Servidor Público, Cidadão.
+
+Eu, como (Atores), eu desejo ver os gastos de um determinado  órgão superior, para avaliar e comparar os gastos ao longo dos meses no ano.
+
+- Filtrar o nome do órgão no campo de busca ou clicar no órgão escolhido.
+-  Interagir no gráfico para comparar os gastos nos meses em um ano.
+ 
+
+
+Nome da História: Órgãos Subordinados
+
+Atores: Professor, Gestor Público, Aluno, Político, Servidor Público, Cidadão. 
+
+Eu, como (Atores), eu desejo ver os gastos de um determinado  órgão subordinado, para avaliar e comparar os gastos ao longo dos meses no ano.
+
+- Filtrar o nome do órgão no campo de busca ou clicar no órgão escolhido.
+-  Interagir no gráfico para comparar os gastos nos meses em um ano.
+
+
+
+Nome da História: Unidades Gestoras
+
+Atores: Professor, Gestor Público, Aluno, Político, Servidor Público, Cidadão. 
+
+Eu, como (Atores), eu desejo ver os gastos de uma determinada  Unidade Gestora, para avaliar e comparar os gastos ao longo dos meses no ano.
+
+- Filtrar o nome da unidade gestora no campo de busca ou clicar na unidade gestora escolhida.
+-  Interagir no gráfico para comparar os gastos nos meses em um ano.
+
+ 
+
+Nome da História: Ações
+
+Atores: Professor, Gestor Público, Aluno, Político, Servidor Público, Cidadão. 
+
+Eu, como (Atores), eu desejo ver os gastos de uma determinada  Ação, para avaliar e comparar os gastos da Ação ao longo dos meses no ano.
+
+- Filtrar o nome da ação na página de Consulta Simples
+- Filtrar o nome da ação no campo de busca ou clicar na ação escolhido ou clicar no botão Ação na Tela Inicial.
+-  Interagir no gráfico para comparar os gastos nos meses em um ano.
+
+
+Nome da História: Programas
+
+Atores: Professor, Gestor Público, Aluno, Político, Servidor Público, Cidadão. 
+
+Eu, como (Atores), eu desejo ver os gastos de um determinado  Programa, para avaliar e comparar os gastos da Programa ao longo dos meses no ano.
+
+- Filtrar o nome do programa na página de Consulta Hierárquica
+- Filtrar o nome do programa no campo de busca ou clicar no botão Programa na Tela Inicial.
+-  Interagir no gráfico para comparar os gastos nos meses em um ano.
+
+Nome da História: Favorecidos
+
+Atores: Professor, Gestor Público, Aluno, Político, Servidor Público, Cidadão. 
+
+Eu, como (Atores), eu desejo ver os gastos de um determinado  Favorecido, para avaliar e comparar os gastos de um determinado Favorecido ao longo dos meses no ano.
+
+- Filtrar o nome do favorecido na página de Hierárquica
+- Filtrar o nome do favorecido no campo de busca ou clicar no botão Programa na Tela Inicial.
+-  Interagir no gráfico para comparar os gastos nos meses em um ano.
+
+
+_------------------------------------------------------------------------------------------_
+Critérios de Aceitação
+
+Nome da História: Consulta Hierárquica
+Critério #1: Os Atores só poderam montar a hierarquia com o(s) Órgão Superior e/ou Orgão Subordinado e/ou Unidade Gestora e/ou Ação e/ou Programa e/ou Favorecido se arrastar cada item para o lado direito e clicar em consultar. 
+
+Critério #2: Os Atores só poderam avaliar os gastos da hierarquia para determinado(s) Órgão(s) Superior(es) e/ou Orgão(s) Subordinado(s) e/ou Unidade(s) Gestora(s) e/ou Ação(ões) e/ou Programa(s) e/ou Favorecido(s) se filtrar por nome(s) do(s) Órgão(s) Superior(s) e/ou Orgão(s) Subordinado(s) e/ou Unidade(s) Gestora(s) e/ou Ação(ões) e/ou Programa(s) e/ou Favorecido(s) ou clicando próximo sem filtrar por algum em cada step ou  e aplicar a consulta.  
+
+Nome da História: Consulta Simples
+Critério #1: Os Atores só poderam comparar os gastos dos órgãos caso digitem no campo consulta simples e apliquem a busca.
+
+
+Nome da História: Gastos de Todos os Órgãos Superiores
+Critério #1: Os Atores só poderam visualizar os gastos de todos os Órgãos Superiores se clicarem no botão Órgão Superior na página inicial.
+
+
+Nome da História: Gastos de Todos os Órgãos Subordinados
+Critério #1: Os Atores só poderam visualizar os gastos de todos os Órgãos Subordinados se clicarem no botão Órgão Subordinado na página inicial.
+
+
+Nome da História: Gastos de Todos os Unidades Gestoras
+Critério #1: Os Atores só poderam visualizar os gastos de todos as Unidades Gestoras se clicarem no botão Unidade Gestora na página inicial.
+
+
+Nome da História: Órgãos Superiores
+Critério #1: Os Atores só poderam ver os gastos de um determinado Órgão Superior se filtrar pelo nome do Órgão Superior na página de Consulta Simples ou na página de Órgão Superior.
+
+
+Nome da História: Órgãos Subordinados
+Critério #1: Os Atores só poderam ver os gastos de um determinado Órgão Subordinado se filtrar pelo nome do Órgão Subordindado na página de Consulta Simples ou na página de Órgão Subordinado.
+
+
+
+Nome da História: Unidades Gestoras
+Critério #1: Os Atores só poderam ver os gastos de uma determinada Unidade Gestora se filtrar pelo nome da Unidade Gestora na página de Consulta Simples ou na página de Unidade Gestora.
+
+Critério #1: Os Atores só poderam ver os gastos de uma determinada Ação se filtrar pelo nome de uma Unidade Gestora na página de Consulta Simples ou na página de Unidade Gestora e logo após filtrar pelo nome da Ação que deseja.
+
+
+
+_------------------------------------------------------------------------------------------_
+Nome da História: Consulta Hierárquica
+Critério #1: Os Atores só poderam montar a hierarquia com o(s) Órgão Superior e/ou Orgão Subordinado e/ou Unidade Gestora e/ou Ação e/ou Programa e/ou Favorecido se arrastar cada item para o lado direito e clicar em consultar. 
+
+Testes de Aceitação:
+1. Os Atores não arrastam algum item e clica em consultar:
+	a. Aceitou = errado, deve ser corrigido!
+	b. Recusou = Correto
+
+
+Critério #2: Os Atores só poderam avaliar os gastos da hierarquia para determinado(s) Órgão(s) Superior(es) e/ou Orgão(s) Subordinado(s) e/ou Unidade(s) Gestora(s) e/ou Ação(ões) e/ou Programa(s) e/ou Favorecido(s) se filtrar por nome(s) do(s) Órgão Superior(s) e/ou Orgão(s) Subordinado(s) e/ou Unidade(s) Gestora(s) e/ou Ação(ões) e/ou Programa(s) e/ou Favorecido(s) ou clicando próximo sem filtrar por algum em cada step ou  e aplicar a consulta.  
+
+Testes de Aceitação:
+1. Critério #2: Os Atores avaliam os gastos da hierarquia para determinado(s) Órgão(s) Superior(es) e/ou Orgão(s) Subordinado(s) e/ou Unidade(s) Gestora(s) e/ou Ação(ões) e/ou Programa(s) e/ou Favorecido(s) sem poderem filtrar, escolher por um ou todos Órgão(s) Superior(s) e/ou Orgão(s) Subordinado(s) e/ou Unidade(s) Gestora(s) e/ou Ação(ões) e/ou Programa(s) e/ou Favorecido(s).
+	a. Aceitou = errado, deve ser corrigido!
+	b. Recusou = Correto
+
+
+Nome da História: Consulta Simples
+Critério #1: Os Atores só poderam comparar os gastos dos órgãos caso digitem no campo consulta simples e apliquem a busca.
+
+Testes de Aceitação:
+1. Os Atores não digitam no campo de consulta simples e aplicam a busca:
+	a. Aceitou = errado, deve ser corrigido!
+	b. Recusou = Correto
+
+
+Nome da História: Gastos de Todos os Órgãos Superiores
+Critério #1: Os Atores só poderam visualizar os gastos de todos os Órgãos Superiores se clicarem no botão Órgão Superior na página inicial.
+
+Testes de Aceitação:
+1. Os Atores tentam encontrar os gastos de todos os Órgãos Superiores em outras opções na tela inicial:
+	a. Aceitou = errado, deve ser corrigido!
+	b. Recusou = Correto
+
+
+Nome da História: Gastos de Todos os Órgãos Subordinados
+Critério #1: Os Atores só poderam visualizar os gastos de todos os Órgãos Subordinados se clicarem no botão Órgão Subordinado na página inicial.
+
+Testes de Aceitação:
+1. Os Atores tentam encontrar os gastos de todos os Órgãos Subordinados em outras opções na tela inicial:
+	a. Aceitou = errado, deve ser corrigido!
+	b. Recusou = Correto
+
+Nome da História: Gastos de Todos os Unidades Gestoras
+Critério #1: Os Atores só poderam visualizar os gastos de todos as Unidades Gestoras se clicarem no botão Unidade Gestora na página inicial.
+
+Testes de Aceitação:
+1. Os Atores tentam encontrar os gastos de todos as Unidades Gestoras em outras opções na tela inicial:
+	a. Aceitou = errado, deve ser corrigido!
+	b. Recusou = Correto
+
+
+Nome da História: Órgãos Superiores
+Critério #1: Os Atores só poderam ver os gastos de um determinado Órgão Superior se filtrar pelo nome do Órgão Superior na página de Consulta Simples ou na página de Órgão Superior.
+
+Testes de Aceitação:
+1. Os Atores tentam encontrar os gastos de um determinado Órgãor Superior em outras opções diferentes do filtro na página de Órgão Superior ou na Consulta Simples:
+	a. Aceitou = errado, deve ser corrigido!
+	b. Recusou = Correto
+
+
+Nome da História: Órgãos Subordinados
+Critério #1: Os Atores só poderam ver os gastos de um determinado Órgão Subordinado se filtrar pelo nome do Órgão Subordindado na página de Consulta Simples ou na página de Órgão Subordinado.
+
+Testes de Aceitação:
+1. Os Atores tentam encontrar os gastos de um determinado Órgãor Subordinado em outras opções diferentes do filtro na página de Órgão Subordinado ou na Consulta Simples:
+	a. Aceitou = errado, deve ser corrigido!
+	b. Recusou = Correto
+
+
+Nome da História: Unidades Gestoras
+Critério #1: Os Atores só poderam ver os gastos de uma determinada Unidade Gestora se filtrar pelo nome da Unidade Gestora na página de Consulta Simples ou na página de Unidade Gestora.
+
+Testes de Aceitação:
+1. Os Atores tentam encontrar os gastos de uma Unidade Gestora em outras opções diferentes do filtro na página de Unidade Gestora ou na Consulta Simples:
+	a. Aceitou = errado, deve ser corrigido!
+	b. Recusou = Correto
+
+
+Nome da História: Ações
+Critério #1: Os Atores só poderam ver os gastos de uma determinada Ação se filtrar pelo nome de uma Unidade Gestora na página de Consulta Simples ou na página de Unidade Gestora ou na Página Inicial clicando no botão Ação e logo após filtrar pelo nome da Ação que deseja.
+
+Testes de Aceitação:
+1. Os Atores tentam encontrar os gastos de uma determinada Ação sem antes filtrar por uma Unidade Gestora na página de Consulta Simples ou na Página de Unidade Gestora ou tentam encontrar os gastos de uma determinada Ação em uma opção diferente do filtro de Consulta Simples:
+	a. Aceitou = errado, deve ser corrigido!
+	b. Recusou = Correto
+
+Nome da História: Programas
+Critério #1: Os Atores só poderam ver os gastos de um determinado Programa se clicarem no botão Programa na Página Inicial ou consultar o Programa na Consulta Hierárquica logo após filtrar pelo nome do Programa que deseja.
+
+Testes de Aceitação:
+1. Os Atores tentam encontrar os gastos de um determinado Programa sem antes filtrar o nome do Programa na Consulta Simples ou do filtro de Programa na Página Inicial ou na Consulta Hierárquica:
+	a. Aceitou = errado, deve ser corrigido!
+	b. Recusou = Correto
+
+Nome da História: Favorecido
+Critério #1: Os Atores só poderam ver os gastos de um determinado Favorecido se clicarem no botão Programa na Página Inicial ou consultar o Programa na Consulta Hierárquica logo após filtrar pelo nome do Favorecido que deseja.
+
+Testes de Aceitação:
+1. Os Atores tentam encontrar os gastos de um determinado Programa sem antes filtrar o nome do Programa na Consulta Simples ou do filtro de Programa na Página Inicial ou na Consulta Hierárquica:
+	a. Aceitou = errado, deve ser corrigido!
+	b. Recusou = Correto
